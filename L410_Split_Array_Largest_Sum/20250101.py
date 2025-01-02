@@ -17,6 +17,8 @@ class Solution:
                 if sumval + nums[i] > m:
                     arrays += 1
                     dbgarray.append(sumval)
+
+
                     # print(f"appended {sumval}")
                     sumval = 0
                 sumval += nums[i]
